@@ -2,7 +2,7 @@
 
 # Platter Palooza
 
-**Platter Palooza** is a cutting-edge food application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It offers a seamless, user-friendly experience for choosing various dishes that you can order and add to cart 
+**Platter Palooza** is a cutting-edge food application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It offers a seamless, user-friendly experience for choosing various dishes that you can order and add to cart.
 
 ## Table of Contents
 
