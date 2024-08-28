@@ -1,0 +1,17 @@
+.Add{
+   width: 70%;
+   margin-left: 240px;
+   margin-top: 50px;
+   color: #6d6d6d;
+   font-size: 16px;
+   margin-top: -700px;
+}
+.Add form{
+    gap: 20px;
+}
+.add-img-upload img{
+    width: 120px;
+}
+.add-product-name, .add-product-discription{
+    width: max(40%,280px);
+}
