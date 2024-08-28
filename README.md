@@ -2,7 +2,7 @@
 
 # Platter Palooza
 
-**Platter Palooza** is a cutting-edge food application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It offers a seamless, user-friendly experience for planning, customizing, and organizing food platters for any occasion. Platter Palooza makes event planning easier and more enjoyable with a focus on intuitive design and robust functionality.
+**Platter Palooza** is a cutting-edge food application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It offers a seamless, user-friendly experience for choosing various dishes that you can order and add to cart 
 
 ## Table of Contents
 
@@ -22,8 +22,8 @@ Platter Palooza provides a complete solution for designing and managing food pla
 ## Features
 
 - **Secure User Authentication**: Protect user data with robust login and registration mechanisms.
-- **Intuitive Product Listings**: Easily browse and customize a wide range of platter designs.
-- **Efficient Search Functionality**: Quickly locate platters and recipes with our optimized search feature.
+- **Intuitive Product Listings**: Easily browse a wide range of food.
+- **Efficient Search Functionality**: Quickly locate recipes with our optimized search feature.
 - **Seamless Cart Functionality**: Add items to your cart and enjoy a streamlined shopping experience, driving increased customer interaction by 20%.
 - **Responsive UI**: Experience a visually stunning and responsive design, optimized for various devices and achieving a 20% improvement in loading times.
 
