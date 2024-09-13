@@ -5,11 +5,11 @@ const useSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true,unique:true },
     password: { type: String, required: true },
-    cartData: { type: object, default:{} }
+    // cartData: { type: object, default:{} }
 },{minimize:false});
 
 // Define and export the food model
-const userModel = mongoose.models.user || mongoose.model("user", userSchema);
+const userModel = mongoose.models.user || mongoose.model("user", useSchema);
 
 export default userModel;
 0
