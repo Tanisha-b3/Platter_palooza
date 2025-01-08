@@ -1,0 +1,56 @@
+/* App Download Section */
+.App-Download {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 2px solid #f1f1f1;
+}
+
+/* Title Text */
+.App-Download p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+/* App Download Platform */
+.app-download-platform {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* App Store & Play Store Icons */
+.app-download-platform img {
+    width: 150px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+/* Hover Effects */
+.app-download-platform img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .App-Download {
+        padding: 3rem 1rem;
+    }
+
+    .App-Download p {
+        font-size: 1.3rem;
+    }
+
+    .app-download-platform {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .app-download-platform img {
+        width: 130px;
+    }
+}
