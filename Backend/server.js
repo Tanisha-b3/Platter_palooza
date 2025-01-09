@@ -14,14 +14,14 @@ app.use(cors());
 connecttdb();
 
 // api endpoints
-app.use("https://platter-palooza-7r9r.vercel.app/food",foodRouter)
+app.use("/api/food/",foodRouter)
 app.use("/images",express.static('uploads'))
-app.use("https://platter-palooza-7r9r.vercel.app/user", userRouter)
-app.use("https://platter-palooza-7r9r.vercel.app/cart",cartRouter)
+app.use("/api/user", userRouter)
+app.use("/api/cart",cartRouter)
 app.get("/", (req, res) => {
     res.send("API working");
 });
-app.use("https://platter-palooza-7r9r.vercel.app/order",orderRouter)
+app.use("api/order",orderRouter)
 
 app.listen(port, () => {
     console.log(`Server started on http://localhost:${port}`);
