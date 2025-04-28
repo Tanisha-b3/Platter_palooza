@@ -22,10 +22,11 @@
 
 /* Title */
 .header-contents h1 {
+    color: grey;
     font-size: clamp(2rem, 4vw, 3.5rem);
     margin-bottom: 1rem;
     font-weight: bold;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+    /* text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8); */
     letter-spacing: 1px;
 }
 
